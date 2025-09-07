@@ -35,7 +35,7 @@ CREATE TABLE retail_sales
 
 
 2. Data Exploration & Cleaning
-3. 
+
 Record Count: Determine the total number of records in the dataset.
 Customer Count: Find out how many unique customers are in the dataset.
 Category Count: Identify all unique product categories in the dataset.
@@ -59,7 +59,7 @@ WHERE
 
     
 3. Data Analysis & Findings
-4. 
+
 The following SQL queries were developed to answer specific business questions:
 
 Write a SQL query to retrieve all columns for sales made on '2022-11-05:
