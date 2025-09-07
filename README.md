@@ -29,6 +29,8 @@ CREATE TABLE retail_sales
     cogs FLOAT,
     total_sale FLOAT
 );
+
+
 2. Data Exploration & Cleaning
 Record Count: Determine the total number of records in the dataset.
 Customer Count: Find out how many unique customers are in the dataset.
@@ -49,6 +51,8 @@ WHERE
     sale_date IS NULL OR sale_time IS NULL OR customer_id IS NULL OR 
     gender IS NULL OR age IS NULL OR category IS NULL OR 
     quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
+
+    
 3. Data Analysis & Findings
 The following SQL queries were developed to answer specific business questions:
 
@@ -144,6 +148,7 @@ Customer Demographics: The dataset includes customers from various age groups, w
 High-Value Transactions: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
 Sales Trends: Monthly analysis shows variations in sales, helping identify peak seasons.
 Customer Insights: The analysis identifies the top-spending customers and the most popular product categories.
+
 
 Reports
 Sales Summary: A detailed report summarizing total sales, customer demographics, and category performance.
